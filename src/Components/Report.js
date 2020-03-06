@@ -23,17 +23,16 @@ class Report extends Component {
   sendEmail=(e)=> {
     e.preventDefault();
 
-    emailjs.send('default_service', 'template_ZIkhS6qQ', e.target, 'user_xWaJSd5Hb3HtH6Vq0RPBL')
+    emailjs.sendForm('default_service', 'template_ZIkhS6qQ', e.target, 'user_xWaJSd5Hb3HtH6Vq0RPBL')
       .then((result) => {
           console.log(result.text);
           alert("Your message was sent successfully");
-          window.Location("/");
-      }, (error) => {
-          console.log(error.text);
+          window.location="/";
+        }, (error) => {
+            console.log(error.text);
           alert("Report not send, please try again")
       });
   }
-
 
     render() { 
         return ( 
