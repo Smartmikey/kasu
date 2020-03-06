@@ -44,8 +44,5 @@ const ItemWrapper = styled.div`
     color: #000;
 }
 
-.img-container img:hover {
-    transform: scale(1.25);
-}
 
 `

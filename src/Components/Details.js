@@ -26,7 +26,7 @@ class Details extends Component {
                             <hr />
                             <div className="row">
                                 <div className="col-6 text-uppercase"><h6>About This Right</h6></div>
-                                <div className="col-6"><Link to="/" className="report-link text-danger "><button className="btn btn-danger text-right">Report Abuse</button></Link></div>
+                                <div className="col-6"><Link to="/report" className="report-link text-danger "><button className="btn btn-danger text-right">Report Abuse</button></Link></div>
                             </div>
                             <p>{aboutBody}</p>
                             <h3>Provision of this right</h3>
