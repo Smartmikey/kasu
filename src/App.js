@@ -5,6 +5,8 @@ import Default from './Components/Default.js';
 import Index from './Components/Index.js';
 import Report from './Components/Report.js';
 import Details from './Components/Details.js';
+import Modal from './Components/Modal.js';
+
 
 function App() {
   return (
@@ -16,9 +18,9 @@ function App() {
         <Route path="/details" component={Details}/>
         <Route path="/report" component={Report}/>
         <Route  component={Default}/>
-        
     
       </Switch>
+        <Modal />
     </React.Fragment>
     
   );

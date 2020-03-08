@@ -7,7 +7,8 @@ class DataProvider extends Component {
     state = { 
         dataStore: [],
         detailData: detailData,
-        openModal: false
+        modal: false,
+        
      }
      componentDidMount(){
         this.setData();
@@ -36,11 +37,23 @@ class DataProvider extends Component {
             return {detailData:item};
         })
     }
+    openModal=() =>{
+        this.setState(()=>{
+            return{modal:true}
+        })
+    }
+    closeModal=() =>{
+        this.setState(()=>{
+            return{modal:false}
+        })
+    }
     render() { 
         return ( 
             <DataContext.Provider value={{
                 ...this.state,
-                handleDetails: this.handleDetails
+                handleDetails: this.handleDetails,
+                openModal: this.openModal,
+                closeModal: this.closeModal
             }}>
                 {this.props.children}
             </DataContext.Provider>

@@ -10,10 +10,11 @@ class Details extends Component {
             
             <DataConsumer>
                 {value=>{
-                    const {title, img, aboutBody,provBody,limBody} = value.detailData;
+                    const {title, img, aboutBody,provBody,limBody, ref} = value.detailData;
+                    const {key, values} = ref;
 
                     return(
-                    <DetailWrapper >
+                    <DetailWrapper>
                         <div className="container">
                             <div className="row my-2">
                                 <div className="col-4">
@@ -33,14 +34,12 @@ class Details extends Component {
                             <p>{provBody}</p>
                             <h3>Limitation of this right</h3>
                             <p>{limBody}</p>
+                            
+                            
                             <h3>Reference</h3>
                             <ul>
-                                <li><Link to="#">Link1</Link></li>
-                                <li><Link to="#">Link2</Link></li>
-                                <li><Link to="#">Link3</Link></li>
-                                <li><Link to="#">Link4</Link></li>
+                                <li><a target="_blank" rel="noopener noreferrer" href={values}>{key}</a> </li>
                             </ul>
-
                            
                         </div>
                         

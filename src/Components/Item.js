@@ -10,6 +10,7 @@ class Item extends Component {
          
         return ( 
         <ItemWrapper className="col-6 mx-auto col-md-4 col-lg-3  my-2">
+            {/* icons on this application are gotten from Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */}
             <DataConsumer >
             {value=> (
             <div className="card" onClick={()=>{ 
