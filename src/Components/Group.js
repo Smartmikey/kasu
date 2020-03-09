@@ -5,7 +5,7 @@ class Group extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <div className="row container">
+                <div className="row container mb-5">
                     <div className="col-md-6 col-lg-4 col-sm-12">
                     <div class="card m-4" >
                         <ul class="list-group list-group-flush">

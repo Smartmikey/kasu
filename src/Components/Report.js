@@ -37,7 +37,7 @@ class Report extends Component {
     render() { 
         return ( 
         <React.Fragment>
-            <form className="container" onSubmit={this.sendEmail}>
+            <form className="container mb-5" onSubmit={this.sendEmail}>
                 <h2 className="text-center">Report form</h2>
                 <small > <span className="text-danger">*</span> All fields are required</small>
             <div className="form-group">
