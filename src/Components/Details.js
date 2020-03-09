@@ -15,7 +15,7 @@ class Details extends Component {
 
                     return(
                     <DetailWrapper>
-                        <div className="container">
+                        <div className="container mb-5">
                             <div className="row my-2">
                                 <div className="col-4">
                                     <img src={img} alt={ "Kasu assignment " + title} className="detail-image"/>

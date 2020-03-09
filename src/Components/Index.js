@@ -7,12 +7,12 @@ class Index extends Component {
     render() { 
         return ( 
         <React.Fragment>
-            <div className="container">
+            <div className="container mb-5">
                 <p className="text-muted text-center my-2">Acc 113 project</p>
                 <div className="row">
 
                 
-                <DataConsumer>
+                <DataConsumer >
                     {value=>
                        {
                            return value.dataStore.map(data =>{

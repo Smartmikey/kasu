@@ -6,6 +6,8 @@ import Index from './Components/Index.js';
 import Report from './Components/Report.js';
 import Details from './Components/Details.js';
 import Modal from './Components/Modal.js';
+import Footer from './Components/Footer.js';
+import Group from './Components/Group.js';
 
 
 function App() {
@@ -17,10 +19,12 @@ function App() {
         <Route exact path="/" component={Index} />
         <Route path="/details" component={Details}/>
         <Route path="/report" component={Report}/>
+        <Route path="/group" component={Group}/>
         <Route  component={Default}/>
     
       </Switch>
         <Modal />
+        <Footer />
     </React.Fragment>
     
   );

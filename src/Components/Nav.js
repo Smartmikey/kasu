@@ -15,7 +15,11 @@ class Nav extends Component {
             <button className="navbar-toggler" type="button" onClick={()=>value.openModal()} >
                 <span className="navbar-toggler-icon"></span>
             </button>
-            
+            <div class="navbar-nav ml-auto d-sm-none d-md-block d-none">
+                <Link className="nav-item nav-link d-inline" to="/group">Project Group </Link>
+                <Link className="nav-item nav-link d-inline-block" to="/report">Report an abuse </Link>
+                
+    </div>
             </nav>
                 )
                 

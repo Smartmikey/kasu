@@ -9,6 +9,7 @@ import image8 from './icons/statue-of-liberty.svg';
 import image9 from './icons/noise.svg';
 import image10 from './icons/student.svg';
 import image11 from './icons/wheelchair.svg';
+import image12 from './icons/movement.svg';
 
 export const data = [
     {
@@ -16,8 +17,8 @@ export const data = [
         title: 'Right to Freedom of thought, belief and religion',
         img: `${image1}`,
         aboutBody: `It includes the right to change your religion or beliefs at any time. You also have the right to put your thoughts and beliefs into action. This could include your right to wear religious clothing, the right 
-        to talk about your beliefs or take part in religious worship. Public authorities cannot stop you practising your religion, without very good reason – see the section on restrictions below.Importantly, this right protects a wide range of non-religious beliefs including atheism, agnosticism, veganism and pacifism. For a belief to be protected under this article, it must be serious, concern important aspects of human life or behaviour, be sincerely held, and be worthy of respect in a democratic society.`,
-        provBody: ``,
+        to talk about your beliefs or take part in religious worship. Public authorities cannot stop you practising your religion, without very good reason – see the section on restrictions below.Importantly, `,
+        provBody: `this right protects a wide range of non-religious beliefs including atheism, agnosticism, veganism and pacifism. For a belief to be protected under this article, it must be serious, concern important aspects of human life or behaviour, be sincerely held, and be worthy of respect in a democratic society.`,
         limBody:`Public authorities cannot interfere with your right to hold or change your beliefs, but there are some situations in which public authorities can interfere with your right to manifest or show your thoughts, belief and religion. This is only allowed where the authority can show that its action is lawful, necessary and proportionate in order to protect:
         (a)public safety
         (b) public order 
@@ -70,7 +71,7 @@ export const data = [
         The courts have decided that the right to life does not include a right to die.
         
         Separately, Protocol 13, Article 1 of the Human Rights Act makes the death penalty illegal in the UK.`,
-        provBody: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel',
+        provBody: `Section 33(1) of the Constitution of the Federal Republic of Nigeria (CFRN), 1999, provides that “every person has a right to life, and no one shall be de- prived intentionally of his life, save in execution of the sentence of a court in respect of a criminal offence of which he has been found guilty in Nigeria”.`,
         limBody: `As fundamental and important as this right is, it is not an absolute right; it is a qualified right. This means that there may be instances where a person is killed and the deceased would not be considered to have been deprived of his right to life. In such instances, it would be said that a limitation on the right to life has been placed. It is usually the actions of the deceased that result in him being deprived of this right.
         A person would not be deemed to have been deprived of his right to life in the following instances:
 
@@ -280,17 +281,41 @@ export const data = [
 
         
     },
-    // {
-    //     id: 8,
-    //     title: 'Right to ',
-    //     img: `${image8}`,
-    //     aboutBody: ``,
-    //     provBody: ``,
-    //     limBody: ``,
-    //     ref: {"key":'Right to association', "values": "https://humanrightshouse.org/we-stand-for/freedom-of-association/"}
+    {
+        id: 12,
+        title: 'Right to freedom of movement ',
+        img: `${image12}`,
+        aboutBody: `Freedom of movement, mobility rights, or the right to travel is a human rights concept encompassing the right of individuals to travel from place to place within the territory of a country, and to leave the country and return to it. The right includes not only visiting places, but changing the place where the individual resides or works.
+
+        Such a right is provided in the constitutions of numerous states, and in documents reflecting norms of international law. For example, Article 13 of the Universal Declaration of Human Rights asserts that:`,
+        provBody: `a citizen of a state in which that citizen is present has the liberty to travel, reside in, and/or work in any part of the state where one pleases within the limits of respect for the liberty and rights of others,
+        and that a citizen also has the right to leave any country, including his or her own, and to return to his or her country at any time.
+        Some people and organizations advocate an extension of the freedom of movement to include a freedom of movement – or migration – between the countries as well as within the countries. The freedom of movement is restricted in a variety of ways by various governments and may even vary within the territory of a single country. Such restrictions are generally based on public health, order, or safety justifications and postulate that the right to these conditions preempts the notion of freedom of movement.`,
+        limBody: `Inspite of your right to freedom of movement, there are certain instances when this right may be infringed upon by some other laws which are reasonably justifiable in a democratic society. Such laws may not be inconsistent with the Constitution in as much as they are reasonably justifiable, even if the law restrict your freedom of movement. Some of the instances of limitations on your freedom of movement are stated by the Constitution as follows:
+
+        (a) Restrictions upon committing a criminal offence: A person who has committed or is suspected of having committed a criminal offence may have his movement restricted in order to prevent him from leaving or running away from Nigeria. Such a person may be asked to surrender his international passport or other travelling documents without which he cannot leave the country. He may be asked to deposit such travelling documents with the court or with the security agencies.
+        
+        A person who has committed or suspected to have committed a criminal offence may have his movement restricted even within the country. Such person may be bound from travelling outside his town or State without permission from security agencies or from the court. Such a person may be prevented from visiting a particular place, town or State if it becomes necessary.
+        
+        A person who has committed or suspected of having committed a criminal offence may be prevented from leaving his home or neighborhood if it becomes necessary. This is what is commonly referred to as “house arrest”. Such a person may be bound under the order of a court or by security agencies from leaving his residence if leaving it will create security risks or violence.
+        
+        (b) A citizen who has committed a criminal offence in another country and escaped to Nigeria may be forcefully removed from here to that country to face trial for the offence he committed. A person who committed an offence outside Nigeria, was tried, found guilty and sentenced to imprisonment but manages to escape may be forcefully removed to that country to undergo his imprisonment or other sanction prescribed by the laws of that country.
+        
+        But, note that in every case where a citizen can be forcefully removed to face trial or serve imprisonment in another country, there must have been a reciprocal agreement between Nigeria and that other country on such matter. For instance, if a citizen commits an offence in, e.g., China and escapes to Nigeria, that citizen cannot be forcefully removed to China to face trial or undergo imprisonment if there is no agreement between Nigeria and China that any of their citizens who committed an offence can be so forcefully removed to Nigeria. In other words, there must have been an agreement that if a Chinese also commits an offence in Nigeria and escapes to China, such a citizen can be forcefully removed to Nigeria to face his trial and/or imprisonment.
+        
+        (c) Freedom of movement may be restricted in times of war, violence, riots, or breach of public peace. The government is entitled to impose curfew from and to any particular period in order to secure lives and properties and maintain peace.
+        
+        (d) Freedom of movement may be restricted in times of epidemics, natural calamities, disasters, state of emergencies, etc.
+        
+        (e) Freedom of movement may be restricted in times of national, State or local event, e.g., the environmental sanitation exercises, election days, etc.
+        
+        (f) A prisoner serving jail term or a suspect awaiting trial may have his freedom of movement restricted according to rules and regulations by the prison authorities.
+        
+        (g) A lunatic, person of unsound mind or person suffering from contagious diseases may be forcefully removed from one place to another for his treatment, welfare and public safety and security.`,
+        ref: {"key":'Right to association', "values": "https://humanrightshouse.org/we-stand-for/freedom-of-association/"}
 
         
-    // },
+    },
     {
         id: 11,
         title: 'Right to Protection from discrimination',
@@ -318,7 +343,7 @@ export const detailData =
         img: `${image1}`,
         aboutBody: `It includes the right to change your religion or beliefs at any time. You also have the right to put your thoughts and beliefs into action. This could include your right to wear religious clothing, the right 
         to talk about your beliefs or take part in religious worship. Public authorities cannot stop you practising your religion, without very good reason – see the section on restrictions below.Importantly, this right protects a wide range of non-religious beliefs including atheism, agnosticism, veganism and pacifism. For a belief to be protected under this article, it must be serious, concern important aspects of human life or behaviour, be sincerely held, and be worthy of respect in a democratic society.`,
-        provBody: ``,
+        provBody: `this right protects a wide range of non-religious beliefs including atheism, agnosticism, veganism and pacifism. For a belief to be protected under this article, it must be serious, concern important aspects of human life or behaviour, be sincerely held, and be worthy of respect in a democratic society.`,
         limBody:`Public authorities cannot interfere with your right to hold or change your beliefs, but there are some situations in which public authorities can interfere with your right to manifest or show your thoughts, belief and religion. This is only allowed where the authority can show that its action is lawful, necessary and proportionate in order to protect:
         (a)public safety
         (b) public order 
